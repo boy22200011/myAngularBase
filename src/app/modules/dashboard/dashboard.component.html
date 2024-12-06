@@ -1,1 +1,8 @@
-<p>dashboard works!</p>
+<form>
+  <mat-form-field class="example-full-width">
+    <mat-label>Favorite food</mat-label>
+    <input matInput placeholder="Ex. Pizza" [(ngModel)]="food" name="food"/>
+  </mat-form-field>
+</form>
+
+<p>{{ food }}</p>
